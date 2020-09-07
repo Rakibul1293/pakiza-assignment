@@ -1,0 +1,74 @@
+.distinguished-header .gray-color {
+    color: gray;
+    font-size: 21px;
+}
+.distinguished-header .cyan-color {
+    color: #00bcd5;
+    font-size: 50px;
+    font-weight: 600;
+}
+.distinguished-header .black-color {
+    color: #000;
+    font-size: 50px;
+}
+
+.distinguished-header {
+    background-image: url("https://j758s1irpz926ddw14fjwet1-wpengine.netdna-ssl.com/wp-content/uploads/2016/11/title_img2.png");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    padding: 85px;
+    line-height: 39px;
+}
+
+.distinguished-carousel .card {
+    border: 0!important;
+}
+
+.distinguished-carousel .card:hover {
+    border: 1px solid #00bcd5!important;
+    cursor: pointer;
+    background-color: #f6f9f9;
+}
+
+.distinguished-carousel .card:hover > .card-body .card-title small {
+    color: #00bcd5;
+}
+
+.distinguished-carousel p.view-details {
+    display: none;
+}
+.distinguished-carousel .card:hover > .card-body p.view-details {
+    display: block;
+}
+
+.distinguished-carousel .card:hover > .card-body .list-item ul li a i {
+    color: #00bcd5!important;
+}
+
+.distinguished-carousel .card-text {
+    line-height: 27px;
+}
+
+.distinguished-carousel .owl-carousel .owl-item img {
+    width: 100%;
+    padding-bottom: 23px;
+}
+
+.distinguished-carousel button:focus {
+    outline: none;
+}
+
+.distinguished-carousel .owl-theme .owl-dots .owl-dot span {
+    background:#aceefe!important;
+    width: 13px;
+    height: 13px;
+    margin: 53px 7px;
+}
+
+.distinguished-carousel .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot span {
+    background:#aceefe!important;
+}
+
+.distinguished-carousel .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background:#00bcd5!important;
+}

@@ -1,0 +1,100 @@
+.appointment {
+    background-color: #f6f9f9;
+}
+
+.appointment .form-right-header {
+    padding-bottom: 29px;
+    margin-left: 119px;
+    padding-top: 81px;
+}
+
+.appointment .form-right-header p span {
+    color: #00bcd5;
+    font-weight: 700;
+}
+
+.appointment .working-index {
+    direction: rtl;
+    display: flex;
+    justify-content: space-between;
+}
+
+.appointment .working-index p {
+    direction: ltr;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0rem;
+}
+
+.appointment .list-group-item {
+    background-color: #f6f9f9!important;
+}
+
+.appointment .form-left {
+    background-color: #aceefe;
+    margin-right: -101px;
+}
+
+.appointment .form-left-header {
+    padding-bottom: 29px;
+    margin-left: 81px;
+    padding-top: 81px;
+}
+
+.appointment .form-left-header p span {
+    color: #00bcd5;
+    font-weight: 700;
+}
+
+.appointment .form-left-header p span {
+    color: #00bcd5;
+    font-weight: 700;
+}
+
+.appointment .appointment-form {
+    padding-left: 65px;
+}
+
+.appointment .form-group {
+    margin-bottom: 0rem;
+}
+
+.appointment .form-control {
+    border: 0;
+    border-bottom:1px solid #ced4da!important;
+    background-color: #aceefe;
+    transition: 1s;
+}
+
+.appointment .form-control:focus {
+    box-shadow: none;
+    background-color: #aceefe;
+}
+
+.appointment input:hover, select:hover {
+    background-color: #e9ecefa3;
+    transform: translateX(10px);
+}
+
+.appointment .btn {
+    font-weight: 600;
+    padding: .75rem 1.5rem;
+    margin-left: 145px;
+    margin-top: 47px;
+    margin-bottom: 61px;
+}
+
+.appointment .btn-primary {
+    color: #565353ed;
+    background-color: #aceefe;
+    border-color: #0000004f;
+    border-radius: 0;
+    transition: 0.5s;
+}
+
+.appointment .btn-primary:hover {
+    color: #fff;
+    background-color: #00bcd5;
+    border-color: #0000004f;
+    transform: scale(1.1);
+}

@@ -1,0 +1,479 @@
+/*************   general start   ************/
+body {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  overflow-x: hidden;
+}
+
+.container-fluid {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 15px;
+}
+
+.ant-layout {
+  background: #fff !important;
+}
+
+.mainLayout .ant-layout-header {
+  background: #f8f8f8;
+  padding: 0;
+  height: auto;
+  line-height: 1.6;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.bgGray {
+  background: #fafafa;
+}
+/*************   general end   ************/
+
+/*************   title holder start   ************/
+.titleHolder {
+  text-align: center;
+  position: relative;
+  padding: 0 0 20px;
+  margin: 0 0 40px;
+}
+
+.titleHolder:after {
+  transform: translateX(-50%);
+  content: '';
+  background: #f0f;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  height: 3px;
+  width: 50px;
+}
+
+.titleHolder h2 {
+  font-size: 28px;
+  margin: 0;
+}
+/*************   title holder end   ************/
+
+/*************   header start   ************/
+.ant-layout-header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.header .logo {
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.header .logo .fas {
+  color: #1890ff;
+  margin: 0 5px 0 0;
+  font-size: 28px;
+}
+
+.header .logo a {
+  color: #f0f;
+}
+
+.header .anticon {
+  color: #f0f;
+}
+
+.header .ant-anchor-wrapper {
+  background: none;
+}
+
+.header .ant-anchor {
+  display: flex;
+}
+
+.header .ant-anchor-ink {
+  display: none;
+}
+
+.header .ant-anchor-link {
+  padding: 0 20px;
+  line-height: 1.4;
+  position: relative;
+}
+
+.ant-anchor-link-active > .ant-anchor-link-title {
+	color: #f0f;
+}
+
+.ant-anchor-link-title:hover {
+	color: #f0f;
+	font-weight: bold;
+	border-bottom: 1px solid #f0f;
+	transform: scaleX(0.7);
+	transition: all 0.3s linear;
+}
+
+
+/*************   header end   ************/
+
+/*************   home start   ************/
+.heroBlock {
+  background: url('assets/images/bg-hero.jpg') no-repeat;
+  background-position: 50% 100%;
+  background-size: cover;
+  height: 100vh;
+}
+
+.heroBlock .container-fluid {
+  display: block !important;
+}
+
+.heroBlock .ant-carousel,
+.heroBlock .ant-carousel div {
+  height: 100%;
+}
+
+.heroBlock .slick-dots li button {
+  background: #000 !important;
+}
+
+.heroBlock .slick-dots li.slick-active button {
+  background: #1890ff !important;
+}
+
+.heroBlock .content {
+  max-width: 640px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 0 70px;
+  margin: 0 auto;
+}
+
+.heroBlock h3 {
+  font-size: 43px;
+  line-height: 1.2;
+  margin: 0 0 30px;
+  text-align: center;
+}
+
+.heroBlock p {
+  margin: 0 0 30px;
+  text-align: center;
+}
+
+.heroBlock .btnHolder {
+  height: auto !important;
+  text-align: center;
+}
+
+.heroBlock .ant-btn-primary {
+  background: #f0f;
+  border-color: #f0f;
+}
+
+.heroBlock .ant-btn-primary:hover {
+  box-shadow: 3px 3px 11px #f0f;
+}
+
+.heroBlock .btnHolder button,
+.heroBlock .btnHolder .fas {
+  margin: 0 10px 0 0;
+}
+
+.heroBlock .slick-dots li.slick-active button {
+  background: #f0f !important;
+}
+
+.ant-carousel .slick-dots li button:hover, 
+.ant-carousel .slick-dots li button:focus {
+  background: #f0f !important;
+}
+/*************   home end   ************/
+
+/*************   block start   ************/
+.block {
+  padding: 60px 0;
+  border-bottom: 1px solid #d9d9d9;
+}
+/*************   block end   ************/
+
+/*************   about start   ************/
+.aboutBlock .contentHolder {
+  text-align: center;
+  margin: 0 0 50px;
+}
+
+.aboutBlock .icon {
+  font-size: 40px;
+  color: #f0f;
+  margin: 0 0 10px;
+}
+
+.aboutBlock .content {
+  text-align: center;
+}
+/*************   about end   ************/
+
+/*************   services start   ************/
+#services .ant-card {
+	box-shadow: 1px 1px #f0f;
+}
+#services .ant-card-hoverable:hover {
+	box-shadow: 1px 1px 7px #f0f;
+}
+#services .ant-card-meta-title:hover {
+	color: #f0f;
+}
+/*************   services end   ************/
+
+/*************   how it works start   ************/
+.worksBlock {
+  background: url('assets/images/bg-works.jpg') no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  position: relative;
+}
+
+.worksBlock:before {
+  content: '';
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.worksBlock h2 {
+  color: #fff;
+}
+
+.worksBlock .contentHolder {
+  text-align: center;
+}
+
+.worksBlock .contentHolder button {
+  font-size: 40px;
+  line-height: 1;
+  background: none;
+  border: 1px solid #f0f;
+  color: #fff;
+  padding: 30px;
+  border-radius: 50%;
+  width: 110px;
+  height: 110px;
+}
+
+.worksBlock .anticon {
+    color: #f0f;
+}
+/*************   how it works end   ************/
+
+/*************   faqs start   ************/
+.faqBlock .ant-collapse {
+  margin: 0 0 40px;
+}
+
+.faqBlock .quickSupport {
+  text-align: center;
+  max-width: 740px;
+  margin: auto;
+}
+
+.faqBlock .fas {
+  margin: 0 10px 0 0;
+}
+
+.faqBlock .fab {
+  margin: 0 10px 0 0;
+}
+/*************   faqs end   ************/
+
+/*************   pricing block start   ************/
+.pricingBlock .ant-list {
+  text-align: center;
+}
+
+.pricingBlock .ant-row > div:nth-child(2) .ant-list-item {
+  box-shadow: 0 0 12px 2px #f3f3f3;
+  transform: scale(1.1);
+  position: relative;
+  z-index: 1;
+}
+
+.pricingBlock .ant-card-head-title {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.pricingBlock .large {
+  font-size: 38px;
+  line-height: 1;
+  margin: 0 0 20px;
+}
+
+.pricingBlock .fab {
+  margin: 0 10px 0 0;
+}
+
+.pricingBlock .ant-btn-primary {
+  background: #f0f;
+  border-color: #f0f;
+}
+
+.pricingBlock .ant-btn-primary:hover {
+  box-shadow: 3px 3px 11px #f0f;
+}
+
+.pricingBlock .ant-list-item:hover {
+	cursor: pointer;
+	box-shadow: 1px 1px 7px #f03;
+}
+
+.pricingBlock .ant-row > div:nth-child(2) .ant-list-item {
+	box-shadow: 0 0 12px 2px #f0f;
+}
+/*************   pricing block end   ************/
+
+/*************   contact start   ************/
+.contactBlock .ant-form {
+  max-width: 640px;
+  margin: auto;
+}
+
+.contactBlock .ant-form textarea {
+  min-height: 120px;
+  height: 120px;
+}
+
+.contactBlock .ant-btn-primary {
+  background: #f0f;
+  border-color: #f0f;
+}
+
+.contactBlock .ant-btn-primary:hover {
+  box-shadow: 3px 3px 11px #f0f;
+}
+
+.ant-input:hover {
+  border-color: #f0f;
+}
+
+.ant-input:focus, .ant-input-focused {
+  border-color: #f0f;
+}
+
+.ant-form input[type='file']:focus, 
+.ant-form input[type='radio']:focus, 
+.ant-form input[type='checkbox']:focus {
+  border-color: #f0f;
+}
+/*************   contact end   ************/
+
+/*************   footer start   ************/
+.ant-layout-footer {
+  background: #111 !important;
+  color: #fff !important;
+  padding: 60px 0 !important;
+  text-align: center;
+}
+
+.footer .logo {
+  font-size: 22px;
+  text-transform: uppercase;
+  margin: 0 0 20px;
+}
+
+.footer .fas {
+  color: #1890ff;
+  font-size: 28px;
+  margin: 0 5px 0 0;
+}
+
+.footer .logo a {
+  color: #f0f;
+}
+
+.footer .socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  font-size: 24px;
+}
+
+.footer .socials li {
+  margin: 0 20px;
+}
+
+.footer .socials a {
+  color: #fff;
+}
+
+.footer .socials a:hover {
+  color: #1890ff;
+}
+
+.footer .goTop:hover {
+  opacity: 0.7;
+}
+
+.footer .anticon {
+  color: #f0f;
+}
+
+.footer .anticon:hover {
+	transform: scaleX(0.7);
+	transition: all 0.3s linear;
+	font-weight: bold;
+}
+
+.footer .copyright {
+	color: #f0f;
+}
+
+.mobileVisible {
+  display: none;
+}
+
+.mobileHidden {
+  display: block;
+}
+/*************   footer end   ************/
+
+/*************   responsive start   ************/
+@media only screen and (max-width: 991px) {
+  .pricingBlock .ant-row > div:nth-child(2) .ant-list-item {
+    transform: scale(1.14);
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .pricingBlock .ant-row > div:nth-child(2) .ant-list-item {
+    transform: scale(1);
+  }
+
+  .mobileVisible {
+    display: block;
+  }
+  
+  .mobileHidden {
+    display: none;
+  }
+}
+/*************   responsive end   ************/

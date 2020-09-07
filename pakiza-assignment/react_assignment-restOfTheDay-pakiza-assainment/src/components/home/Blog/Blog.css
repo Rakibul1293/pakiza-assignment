@@ -1,0 +1,64 @@
+.blog-header .gray-color {
+    color: gray;
+    font-size: 21px;
+}
+.blog-header .cyan-color {
+    color: #00bcd5;
+    font-size: 50px;
+    font-weight: 600;
+}
+.blog-header .black-color {
+    color: #000;
+    font-size: 50px;
+}
+
+.blog-header {
+    background-image: url("https://j758s1irpz926ddw14fjwet1-wpengine.netdna-ssl.com/wp-content/uploads/2016/11/title_img4.png");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    padding: 85px;
+    line-height: 39px;
+}
+
+.blog-carousel .card {
+    border: 0!important;
+}
+
+.blog-carousel .card:hover {
+    border: 1px solid #00bcd5!important;
+}
+
+.blog-carousel .card-text {
+    line-height: 27px;
+}
+
+.blog-carousel .img-date {
+    background-color: #aceefe;
+    width: 43%;
+    position: absolute;
+    top: 36.5%;
+}
+
+.blog-carousel .owl-carousel .owl-item img {
+    width: 100%;
+    padding-bottom: 0px;
+}
+
+.blog-carousel button:focus {
+    outline: none;
+}
+
+.blog-carousel .owl-theme .owl-dots .owl-dot span {
+    background:#aceefe!important;
+    width: 13px;
+    height: 13px;
+    margin: 53px 7px;
+}
+
+.blog-carousel .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot span {
+    background:#aceefe!important;
+}
+
+.blog-carousel .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background:#00bcd5!important;
+}

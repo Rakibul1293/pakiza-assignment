@@ -1,0 +1,52 @@
+.footer-bottom {
+    background-color: #f6f9f9;
+}
+
+.subscription {
+    font-size: 43px;
+    padding-bottom: 55px;
+    padding-top: 55px;
+}
+
+.subscription .gray-color {
+    color: #343434;
+    padding-bottom: 21px;
+}
+.subscription .cyan-color {
+    color: #00bcd5;
+}
+
+input {
+    outline: none;
+    margin: 0;
+    border: none;
+    border-bottom: 3px solid #00bcd5;
+    box-shadow: none;
+    width: 100%;
+    font-family: inherit;
+    width: 50%;
+}
+
+::-webkit-input-placeholder {
+    font-size: 20px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    font-size: 20px; 
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    font-size: 20px;
+}
+
+:-ms-input-placeholder {  
+    font-size: 20px;
+}
+
+input[type=text]
+{
+    font-size: 21px;
+    color: gray;
+    padding-bottom: 21px;
+    background-color: #f6f9f9;
+}

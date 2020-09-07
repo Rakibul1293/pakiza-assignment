@@ -1,0 +1,50 @@
+.counter-inner {
+    background-color: #ffffff;
+    padding: 85px;
+}
+.counter-inner .counter-box {
+    background: #f6f9f9ed;
+    text-align: center;
+    padding: 30px 0px;
+    transition: 0.5s;
+}
+
+.counter-inner p.counter-box-first-p {
+    font-size: 49px!important;
+    margin-bottom: 0!important;
+    font-weight: 400!important;
+}
+
+.counter-inner p.counter-box-second-p {
+    font-size: 19px!important;
+}
+
+.counter-box:hover {
+    border: 1px solid #00bcd5!important;
+    cursor: pointer;
+}
+
+.counter-inner .counter-box .counter-box-1:hover {
+    background-image: url("https://j758s1irpz926ddw14fjwet1-wpengine.netdna-ssl.com/wp-content/uploads/2016/11/nc1_hover.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.counter-inner .counter-box .counter-box-2:hover {
+    background-image: url("https://j758s1irpz926ddw14fjwet1-wpengine.netdna-ssl.com/wp-content/uploads/2016/11/nc2_hover.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.counter-inner .counter-box .counter-box-3:hover {
+    background-image: url("https://j758s1irpz926ddw14fjwet1-wpengine.netdna-ssl.com/wp-content/uploads/2016/11/nc3_hover.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.counter-inner .counter-box .counter-box-4:hover {
+    background-image: url("https://j758s1irpz926ddw14fjwet1-wpengine.netdna-ssl.com/wp-content/uploads/2016/11/nc4_hover.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

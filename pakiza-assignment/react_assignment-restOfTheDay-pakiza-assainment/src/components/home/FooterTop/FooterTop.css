@@ -1,0 +1,92 @@
+.footer-top .gray-color {
+    color: gray;
+}
+
+.footer-top .cyan-color {
+    color: #00bcd5;
+}
+
+.footer-top ul {
+    list-style: none;
+}
+
+.footer-top ul li::before {
+    content: "\2022";
+    color: #00bcd5;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+}
+
+.extra-content {
+    padding-bottom: 39px;
+}
+
+.footer-top ul li a {
+    text-decoration: none;
+    display: inline-block;
+    color: gray;
+    padding-bottom: 9px;
+}
+
+.footer-top ul li a:hover {
+    color: #00bcd5;
+}
+
+.footer-top-start p.gray-color {
+    line-height: 29px;
+    width: 86%;
+    text-align: justify;
+    padding-bottom: 10px;
+}
+
+.footer-top-start p:nth-of-type(2) {
+    font-size: 27px;
+}
+
+.footer-top-start span.black-color {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.footer-top p.black-color {
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.footer-top span .cyan-color {
+    font-size: 19px;
+    font-weight: 500;
+
+}
+
+.footer-top-last p.black-color {
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.footer-top-last span .cyan-color {
+    font-size: 19px;
+    font-weight: 500;
+
+}
+
+.footer-top-last .icon-list ul li:before {
+    content: "";
+    color: #00bcd5;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+}
+
+.icon-list {
+    padding-bottom: 61px;
+}
+
+.footer-top {
+    background-color: #f6f9f9;
+}
+
+.footer-top .border-info {
+    border-color: #aceefe!important;
+}

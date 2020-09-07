@@ -1,0 +1,34 @@
+.help-line .gray-color {
+    color: gray;
+    font-size: 21px;
+}
+.help-line .cyan-color {
+    color: #00bcd5;
+    font-size: 50px;
+    font-weight: 600;
+}
+.help-line .black-color {
+    color: #000;
+    font-size: 50px;
+}
+
+.p-text-size {
+    font-size: 19px!important;
+}
+
+.help-line {
+    background-color: #F6F9F9;
+    padding: 85px;
+}
+
+.help-line-content p {
+    font-size: 25px;
+}
+
+.help-line-icon {
+    width: 35%;
+    background: #aceefe;
+    text-align: center;
+    padding: 33px;
+    font-size: 30px;
+}

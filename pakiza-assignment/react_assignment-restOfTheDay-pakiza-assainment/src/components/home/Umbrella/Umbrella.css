@@ -1,0 +1,117 @@
+.umbrella-header .gray-color {
+    color: gray;
+    font-size: 21px;
+}
+.umbrella-header .cyan-color {
+    color: #00bcd5;
+    font-size: 50px;
+    font-weight: 600;
+}
+.umbrella-header .black-color {
+    color: #000;
+    font-size: 50px;
+}
+
+.umbrella-header {
+    background-image: url("https://j758s1irpz926ddw14fjwet1-wpengine.netdna-ssl.com/wp-content/uploads/2016/11/title_img1.png");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    padding: 85px;
+    line-height: 39px;
+}
+
+.umbrella-carousel .card {
+    margin-top: 64px;
+    transition: 2s;
+}
+
+.umbrella-carousel .card.card-image-1:hover {
+    background-image: url("https://j758s1irpz926ddw14fjwet1-wpengine.netdna-ssl.com/wp-content/uploads/2016/11/ico1-hover.png");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-image: cover;
+    border: 1px solid #00bcd5!important;
+    cursor: pointer;
+}
+.umbrella-carousel .card.card-image-2:hover {
+    background-image: url("https://j758s1irpz926ddw14fjwet1-wpengine.netdna-ssl.com/wp-content/uploads/2016/11/icon1-hover.png");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-image: cover;
+    border: 1px solid #00bcd5!important;
+    cursor: pointer;
+}
+.umbrella-carousel .card.card-image-3:hover {
+    background-image: url("https://j758s1irpz926ddw14fjwet1-wpengine.netdna-ssl.com/wp-content/uploads/2016/11/ico3-hover.png");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-image: cover;
+    border: 1px solid #00bcd5!important;
+    cursor: pointer;
+}
+.umbrella-carousel .card.card-image-4:hover {
+    background-image: url("https://j758s1irpz926ddw14fjwet1-wpengine.netdna-ssl.com/wp-content/uploads/2016/11/ico4-hover.png");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-image: cover;
+    border: 1px solid #00bcd5!important;
+    cursor: pointer;
+}
+.umbrella-carousel .card.card-image-5:hover {
+    background-image: url("https://j758s1irpz926ddw14fjwet1-wpengine.netdna-ssl.com/wp-content/uploads/2016/11/ico5-hover.png");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-image: cover;
+    border: 1px solid #00bcd5!important;
+    cursor: pointer;
+}
+.umbrella-carousel .card.card-image-6:hover {
+    background-image: url("https://j758s1irpz926ddw14fjwet1-wpengine.netdna-ssl.com/wp-content/uploads/2016/11/ico6-hover.png");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-image: cover;
+    border: 1px solid #00bcd5!important;
+    cursor: pointer;
+}
+
+.umbrella-carousel .owl-carousel .owl-item img {
+    width: 21%;
+    padding-bottom: 3px;
+    margin: 0 auto;
+    background-color: #aceefe;
+    border-radius: 53%;
+    border: 5px solid #fff;
+}
+
+.umbrella-carousel .card-image {
+    position: relative;
+    top: -41px;
+}
+
+.umbrella-carousel .card-title {
+    margin-bottom: 1.75rem;
+    font-size: 20px;
+}
+
+.umbrella-carousel .card-text {
+    line-height: 27px;
+}
+
+.umbrella-carousel button:focus {
+    outline: none;
+}
+
+.umbrella-carousel .owl-theme .owl-dots .owl-dot span {
+    background:#aceefe!important;
+    width: 13px;
+    height: 13px;
+    margin: 53px 7px;
+}
+
+.umbrella-carousel .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot span {
+    background:#aceefe!important;
+}
+
+.umbrella-carousel .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background:#00bcd5!important;
+}
