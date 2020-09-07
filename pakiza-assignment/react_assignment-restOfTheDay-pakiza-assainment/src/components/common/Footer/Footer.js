@@ -1,4 +1,6 @@
 import React from 'react';
+import { BackTop } from 'antd';
+import './Footer.css';
 
 function Footer() {
     return (
@@ -19,6 +21,9 @@ function Footer() {
                         </div>
                     </div>
                 </div>
+                <BackTop>
+                    <div className="goTop d-flex justify-content-end"><i className="fa fa-arrow-circle-up"></i></div>
+                </BackTop>
             </div>
         </section>
     )

@@ -1,0 +1,18 @@
+.footer .goTop:hover {
+    opacity: 0.7;
+}
+
+.footer .anticon:hover {
+    transform: scaleX(0.7);
+    transition: all 0.3s linear;
+    font-weight: bold;
+}
+
+.footer i {
+    color: #00afb3;
+    position: fixed;
+    bottom: 27px;
+    right: 27px;
+    font-size: 45px;
+    cursor: pointer;
+}
